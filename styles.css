@@ -9,6 +9,7 @@ body {
 }
 
 .link-button {
+    align-items: center;
     text-decoration: none;
     color: black;
     border: 1px solid gray;
@@ -17,3 +18,9 @@ body {
     border-radius: 5px;
     box-shadow: 2px 3px #888888;
 }
+.link-button:hover{
+    color: rgb(255, 255, 255);
+    background-color: green;
+
+}
+
