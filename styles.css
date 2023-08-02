@@ -2,15 +2,14 @@ body {
   background-color: violet;
 }
 
-.image{
-    border: 4px dashed black;
-    height: 400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 400px
-    
+.image {
+  border: 4px dashed black;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 400px;
 }
 
 .link-button {
@@ -23,7 +22,6 @@ body {
   box-shadow: 2px 3px #888888;
 }
 
-
 h1 {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
@@ -35,16 +33,13 @@ h2 {
 
 p {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    text-align: center;
+  text-align: center;
 }
 
-.link-button:hover{
-    color: rgb(255, 255, 255);
-    background-color:black;
-
+.link-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: black;
 }
-
-
 
 .link-button:hover {
   color: rgb(255, 255, 255);
@@ -53,5 +48,5 @@ p {
 
 img:hover {
   transition: transform 0.2;
-  transform: scale(1.2);
+  transform: scale(1.05);
 }
