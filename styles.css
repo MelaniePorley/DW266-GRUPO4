@@ -45,8 +45,6 @@ p {
 
 }
 
-<<<<<<< HEAD
-=======
 .link-button:hover {
   color: rgb(255, 255, 255);
   background-color: green;
@@ -56,4 +54,3 @@ img:hover {
   transition: transform 0.2;
   transform: scale(1.2);
 }
->>>>>>> 665eed7f34ab4af7c83fec52604bfcb51f4f88c8
