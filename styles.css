@@ -1,35 +1,45 @@
 body {
-    background-color: violet;
+  background-color: violet;
 }
 
-.image{
-    border: 5px solid green;
-    border-radius: 10px;
-    height: 400px;
+.image {
+  border: 4px dashed black;
+  height: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width: 400px;
 }
 
 .link-button {
-    text-decoration: none;
-    color: black;
-    border: 1px solid gray;
-    background-color: #f2f2f2;
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 2px 3px #888888;
+  text-decoration: none;
+  color: black;
+  border: 1px solid gray;
+  background-color: #f2f2f2;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 3px #888888;
 }
-
 
 h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-
-
 
 h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
 p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.link-button:hover {
+  color: rgb(255, 255, 255);
+  background-color: green;
+}
+
+img:hover {
+  transition: transform 0.2;
+  transform: scale(1.2);
 }
